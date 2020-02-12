@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/breadcrumbs.css" />
+    <link rel="stylesheet" href="./styles/components/modaldialog.css" />
+    <link rel="stylesheet" href="./styles/page/profile.css" />
+    <link rel="stylesheet" href="./styles/components/chatbot.css" />
+    <link rel="stylesheet" href="./styles/icon.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Muli:400,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>LIAPARO</title>
+  </head>
+  <body>
+    <div id="dialog"></div>
+    <header class="header"></header>
+    <div class="wrapper">
+      <div class="container-breadcrumbs">
+        <div class="breadcrumbs">
+          <a href="./index.html" class="lang" key="breadcrumbs-home">Home</a>
+          <a class="active lang" key="breadcrumbs-myaccount" href="">My Account</a>
+        </div>
+      </div>
+      <div class="sideLeft" id="sideLeft">
+        <div class="side-bar">
+          <div class="logoProfile" id="logoProfile"></div>
+          <div class="titleProfile">
+            <p class="lang" key="profile-title">Hi,</p>
+            <span id="title-name-profile"></span>
+          </div>
+        </div>
+        <div class="side-bar" id="Accountoverview">
+          <i class="far fa-user icon-side-bar"></i>
+          <a class="text-side-bar lang" key="profile-account-overview">Account overview</a>
+        </div>
+        <div class="side-bar" id="MyDetails">
+          <i class="far fa-address-card icon-side-bar"></i>
+          <a class="text-side-bar lang" key="profile-mydetails">My details</a>
+        </div>
+        <div class="side-bar" id="MyOrders">
+          <i class="fas fa-box-open icon-side-bar"></i>
+          <a class="text-side-bar lang" key="profile-myorders">My orders</a>
+        </div>
+        <div class="side-bar" id="MyCart">
+          <i class="fas fa-shopping-bag icon-side-bar"></i>
+          <a class="text-side-bar lang" key="profile-mycart">My cart</a>
+        </div>
+        <div class="side-bar" id="MyWishlist">
+          <i class="far fa-star icon-side-bar"></i>
+          <a class="text-side-bar lang" key="profile-mywishlist">My wishlist</a>
+        </div>
+        <div class="side-bar" id="Logout">
+          <i class="fas fa-sign-out-alt icon-side-bar"></i>
+          <a class="text-side-bar lang" key="profile-logout">Logout</a>
+        </div>
+      </div>
+      <div id="content-profile">
+        <div class="product-container"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+      <div class="chat-bot animateOpen animateClose" id="chat-bot">
+        <div class="chat-bot-header">
+          <div class="bot-image"></div>
+          <span class="lang" key="chat-bot-consultant">Consultant AI</span>
+          <div class="close" id="close">
+            <i class="far fa-times-circle"></i>
+          </div>
+        </div>
+        <div class="chat-bot-content" id="content"></div>
+        <div class="chat-bot-input">
+          <input id="chat-bot-textinput" class="lang" key="chat-bot-placeholder-inputmessage" placeholder="Enter message..." />
+          <div id="send" class="send">
+            <i class="fas fa-arrow-circle-up "></i>
+          </div>
+        </div>
+      </div>
+    <footer class="footer"></footer>
+    <script src="./scripts/components/language.js"></script>
+    <script src="./scripts/components/chatbot.js"></script>
+    <script src="./scripts/information.js"></script>
+    <script src="./scripts/components/modaldialog.js"></script>
+    <script src="./scripts/components/header.js"></script>
+    <script src="./scripts/components/footer.js"></script>
+    <script src="./scripts/components/classView.js"></script>
+    <script src="./scripts/components/icon.js"></script>
+    <script src="./scripts/page/profile.js"></script>
+  </body>
+</html>

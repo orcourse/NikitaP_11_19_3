@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/chatbot.css" />
+    <link rel="stylesheet" href="./styles/page/catalog.css" />
+    <link rel="stylesheet" href="./styles/components/breadcrumbs.css" />
+    <link rel="stylesheet" href="./styles/components/modaldialog.css" />
+    <link rel="stylesheet" href="./styles/icon.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Muli:400,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>LIAPARO</title>
+  </head>
+  <body>
+    <div id="dialog"></div>
+    <header class="header"></header>
+    <div class="wrapper">
+      <div class="container-breadcrumbs">
+        <div class="breadcrumbs">
+          <a href="./index.html" class="lang" key="breadcrumbs-home">Home</a>
+          <a id="catalogbreadcrumb" class="active lang" key="breadcrumbs-catalog" href="./catalog.html">Catalog</a>
+          <a id="typebreadcrumb" href="./catalog.html"></a>
+          <a id="subtypebreadcrumb" href="./catalog.html"></a>
+
+        </div>
+      </div>
+      <div class="side-bar-container">
+        <div class="filter-catalog" id="filter-catalog">
+          <div class="side-bar-filter">
+            <h1 class="lang" key="catalog-filter">Filters</h1>
+            <div id="clearFilter" class="lang" key="catalog-filter-clearall">Clear All</div>
+          </div>
+          <div class="side-bar-filter" id="Type">
+            <span class="lang" key="catalog-filter-type">Type:</span>
+            <select name="" id="selectType">
+              <option value="All" class="lang" key="catalog-filter-type-all">All</option>  
+              <option value="Clothes" id="Clothes" class="lang" key="catalog-filter-type-clothes">Clothes</option>
+              <option value="Shoes" class="lang" key="catalog-filter-type-shoes">Shoes</option>
+            </select>
+          </div>
+          <div class="side-bar-filter" id="SubTypeClothes">
+            <span class="lang" key="catalog-filter-sybtype-clothes">Subtype:</span>
+            <select name="" id="selectSubTypeClothes">
+              <option value="All" class="lang" key="catalog-filter-subtype-clothes-all">All</option>
+              <option value="T-shirt" class="lang" key="catalog-filter-subtype-clothes-tshirt">T-shirts</option>
+              <option value="Sweatshirt" class="lang" key="catalog-filter-subtype-clothes-sweatshirts">Sweatshirts</option>
+              <option value="Trouser" class="lang" key="catalog-filter-subtype-clothes-trousers">Trousers</option>
+              <option value="Outerwear" class="lang" key="catalog-filter-subtype-clothes-outerwear">Outerwear</option>
+            </select>
+          </div>
+          <div class="side-bar-filter" id="SubTypeShoes">
+            <span class="lang" key="catalog-filter-subtype-shoes">Subtype:</span>
+            <select name="" id="selectSubTypeShoes">
+              <option value="All" class="lang" key="catalog-filter-subtype-shoes-all">All</option>
+              <option value="Boots" class="lang" key="catalog-filter-subtype-shoes-boots">Boots</option>
+              <option value="Sneakers" class="lang" key="catalog-filter-subtype-shoes-sneakers">Sneakers</option>
+              <option value="Gumshoes" class="lang" key="catalog-filter-subtype-shoes-gumshoes">Gumshoes</option>
+              <option value="Slippers" class="lang" key="catalog-filter-subtype-shoes-slippers">Slippers</option>
+            </select>
+          </div>
+          <div class="side-bar-filter">
+            <span class="lang" key="catalog-filter-brand">Brand:</span>
+            <select name="" id="selectBrand">
+              <option value="All" class="lang" key="catalog-filter-brand-all">All</option>
+              <option value="Levi's">Levi's</option>
+              <option value="Nike">Nike</option>
+              <option value="Tommy Hilfiger">Tommy Hilfiger</option>
+            </select>
+          </div>
+          <div class="side-bar-filter">
+            <span class="lang" key="catalog-filter-color">Color:</span>
+            <select name="" id="selectColor">
+              <option value="All" class="lang" key="catalog-filter-color-all">All</option>
+              <option value="Black" class="lang" key="catalog-filter-color-black">Black</option>
+              <option value="White" class="lang" key="catalog-filter-color-white">White</option>
+              <option value="Gray" class="lang" key="catalog-filter-color-gray">Gray</option>
+              <option value="Blue" class="lang" key="catalog-filter-color-blue">Blue</option>
+              <option value="Dark Blue" class="lang" key="catalog-filter-color-darkblue">Dark Blue</option>
+              <option value="Red" class="lang" key="catalog-filter-color-red">Red</option>
+              <option value="Green" class="lang" key="catalog-filter-color-green">Green</option>
+              <option value="Yellow" class="lang" key="catalog-filter-color-yellow">Yellow</option>
+            </select>
+          </div>
+          <div class="side-bar-filter">
+            <span class="lang" key="catalog-filter-country">Country:</span>
+            <select name="" id="selectCountry">
+              <option value="All" class="lang" key="catalog-filter-country-all">All</option>
+              <option value="India" class="lang" key="catalog-filter-country-india">India</option>
+              <option value="Turkey" class="lang" key="catalog-filter-country-tyrkey">Turkey</option>
+              <option value="Vietnam" class="lang" key="catalog-filter-country-vietnam">Vietnam</option>
+              <option value="Columbia" class="lang" key="catalog-filter-country-columbia">Columbia</option>
+
+            </select>
+          </div>
+          <div class="side-bar-filter">
+              <span class="lang" key="catalog-filter-price">Price:</span>
+              <div class="inputprice"> 
+                <input type="text" placeholder="from" class="priceinput lang" key="catalog-filter-price-placeholder-to" id="inputFromPrice"/>
+                <input type="text" placeholder="to" class="priceinput lang" key="catalog-filter-price-placeholder-from" id="inputToPrice"/>
+              </div>
+          </div>
+          <div class="side-bar-filter">
+            <a class="btnFilter lang" id="btnFilter" key="catalog-filter-btn-search">Search</a>
+          </div>
+        </div>
+        <div class="sort-catalog">
+          <div class="side-bar-sort">
+            <h1 class="lang" key="catalog-sort">Sort by</h1>
+          </div>
+          <div class="side-bar-sort">
+            <select name="" id="selectSort">
+              <option value="Default" class="lang" key="catalog-sort-default">Recommended</option>
+              <option value="HighToLow" class="lang" key="catalog-sort-hightolow">Price: High to Low</option>
+              <option value="LowToHigh" class="lang" key="catalog-sort-lowtohigh">Price: Low to High</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="catalog" id="catalog"></div>
+      <div class="clear"></div>
+    </div>
+  </div>
+      <div class="chat-bot animateOpen animateClose" id="chat-bot">
+        <div class="chat-bot-header">
+          <div class="bot-image"></div>
+          <span class="lang" key="chat-bot-consultant">Consultant AI</span>
+          <div class="close" id="close">
+            <i class="far fa-times-circle"></i>
+          </div>
+        </div>
+        <div class="chat-bot-content" id="content"></div>
+        <div class="chat-bot-input">
+          <input id="chat-bot-textinput" class="lang" key="chat-bot-placeholder-inputmessage" placeholder="Enter message..." />
+          <div id="send" class="send">
+            <i class="fas fa-arrow-circle-up "></i>
+          </div>
+        </div>
+      </div>  
+    <footer class="footer"></footer>
+    <script src="./scripts/components/language.js"></script>
+    <script src="./scripts/components/chatbot.js"></script>
+    <script src="./scripts/information.js"></script>
+    <script src="./scripts/components/footer.js"></script>
+    <script src="./scripts/components/header.js"></script>
+    <script src="./scripts/components/sort.js"></script>
+    <script src="./scripts/components/filter.js"></script>
+    <script src="./scripts/components/classView.js"></script>
+    <script src="./scripts/page/catalog.js"></script>
+    <script src="./scripts/components/modaldialog.js"></script>
+    <script src="./scripts/components/icon.js"></script>
+  </body>
+</html>

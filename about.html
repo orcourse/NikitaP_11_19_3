@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/components/chatbot.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/breadcrumbs.css" />
+    <link rel="stylesheet" href="./styles/page/about.css" />
+    <link rel="stylesheet" href="./styles/icon.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Muli:400,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>LIAPARO</title>
+  </head>
+  <body>
+    <header class="header"></header>
+    <div class="wrapper">
+      <div class="container-breadcrumbs">
+        <div class="breadcrumbs">
+          <a href="./index.html" class="lang" key="breadcrumbs-home">Home</a>
+          <a class="active lang" href="" key="breadcrumbs-about">About</a>
+        </div>
+      </div>
+      <div class="about-contact-info">
+        <h1 class="lang" key="about-contact">Контакты</h1>
+        <span class="lang" key="about-contact-title-one">По всем вопросам Вы можете связаться с нами удобным способом:</span>
+        <h4 class="lang" key="about-contact-title-two">по телефону:</h4> 
+        <span>+375 29 555-55-55 (A1)</span>
+        <span>+375 33 555-55-55 (МТС)</span>
+        <span>+375 25 555-55-55 (Live)</span>
+        <span>+375 17 555-55-55 (Home)</span>
+        <h4 class="lang" key="about-contact-title-three">В социальных сетях и онлайн:</h4>
+        <div class="about-social-info">
+          <a href="https://vk.com/">
+            <i class="fab fa-vk social"></i>
+          </a>
+          <a href="https://ok.ru/">
+            <i class="fab fa-odnoklassniki social"></i>
+          </a>
+          <a href="https://www.instagram.com/">
+            <i class="fab fa-instagram social"></i>
+          </a>
+          <a href="https://telegram.org/">
+            <i class="fab fa-telegram-plane social"></i>
+          </a>
+          <a href="https://mail.google.com/">
+            <i class="fas fa-envelope social"></i>
+          </a>
+        </div>
+      </div>
+      <div class="about-map-info">
+          <h1 class="lang" key="about-map">Мы на карте:</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2092.34391465747!2d27.60198520768832!3d53.93926610107492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc5977caf24543ad!2z0J7QsdC70LDRgdGC0Ywg0KDQsNC30LLQuNGC0LjRjyAoTy5SLk1lZGlhKQ!5e0!3m2!1sru!2sby!4v1579088260374!5m2!1sru!2sby"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+ <div class="about-content-info">
+     <b class="lang" key="about-content-sitename">LIAPARO</b><span class="lang" key="about-content-info"> — крупнейший магазин одежды Беларуси с широчайшим ассортиментом и выгодными ценами.</span><br/>
+     <span class="lang" key="about-content-info-extra">Здесь покупатели обеспечены комфортным, доступным и безопасным онлайн-шопингом.</span>
+ </div>
+    </div>
+    
+  </div>
+      <div class="chat-bot animateOpen animateClose" id="chat-bot">
+        <div class="chat-bot-header">
+          <div class="bot-image"></div>
+          <span class="lang" key="chat-bot-consultant">Consultant AI</span>
+          <div class="close" id="close">
+            <i class="far fa-times-circle"></i>
+          </div>
+        </div>
+        <div class="chat-bot-content" id="content"></div>
+        <div class="chat-bot-input">
+          <input
+            id="chat-bot-textinput"
+            class="lang"
+            key="chat-bot-placeholder-inputmessage"
+            placeholder="Enter message..."
+          />
+          <div id="send" class="send">
+            <i class="fas fa-arrow-circle-up "></i>
+          </div>
+        </div>
+    <footer class="footer"></footer>
+    <script src="./scripts/components/language.js"></script>
+    <script src="./scripts/components/chatbot.js"></script>
+    <script src="./scripts/information.js"></script>
+    <script src="./scripts/components/classView.js"></script>
+    <script src="./scripts/components/header.js"></script>
+    <script src="./scripts/components/footer.js"></script>
+    <script src="./scripts/components/icon.js"></script>
+    <script src="./scripts/page/about.js"></script>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+/************************************************************
+                          Home
+*************************************************************/
+
+.company-benefits {
+  opacity: 1;
+  height: 180px;
+  width: 100%;
+}
+
+.company-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.company-benefits-inner {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.company-benefits-item {
+  width: 250px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.fa-check-square {
+  font-size: 40px;
+  padding-top: 10px;
+  color: #f72464;
+}
+
+.saleslideshow-container {
+  position: relative;
+  margin: auto;
+  z-index: 0;
+  height: 400px;
+  overflow: hidden;
+}
+
+.salePrev,
+.saleNext {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #f72464;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.saleNext {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.salePrev:hover,
+.saleNext:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+
+.saleDot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0px 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.saleDot:hover {
+  background-color: #f72464;
+}
+
+.saleSlides {
+  width: 100%;
+  position: relative;
+}
+.sale-product-photo {
+  height: 400px;
+  width: 33.3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.sale-product-info {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 80px;
+  width: 350px;
+  color: #fff;
+  background-color: #f72464;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sale-title {
+  margin: 0;
+}
+.sale-timer {
+  font-size: 20px;
+}
+
+.sale-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 504px) {
+  .prev,
+  .next,
+  .salePrev,
+  .saleNext,
+  .saleDot,
+  .dot {
+    display: none;
+  }
+  .sale-product-info {
+    width: 200px;
+    height: 55px;
+    font-size: 10px;
+  }
+  .company-benefits {
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .company-container {
+    width: 100%;
+  }
+  .company-benefits-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+  }
+  .company-benefits-item {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (min-width: 505px) and (max-width: 607px) {
+  .prev,
+  .next,
+  .salePrev,
+  .saleNext,
+  .saleDot,
+  .dot {
+    display: none;
+  }
+  .sale-product-info {
+    width: 200px;
+    height: 55px;
+    font-size: 10px;
+  }
+  .company-benefits {
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .company-container {
+    width: 100%;
+  }
+  .company-benefits-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+  }
+  .company-benefits-item {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 608px) and (max-width: 799px) {
+  .saleDot,
+  .dot {
+    display: none;
+  }
+  .sale-product-info {
+    width: 200px;
+    height: 55px;
+    font-size: 10px;
+  }
+  .company-benefits {
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .company-container {
+    width: 100%;
+  }
+  .company-benefits-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+  }
+  .company-benefits-item {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

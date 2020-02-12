@@ -1,0 +1,131 @@
+body,
+.wrapper,
+.header,
+.sitelogo a,
+.navLink,
+.panelCategory,
+.liCategory,
+.categoryName,
+.fa-user,
+.btnAcc,
+.myAcc,
+.fa-shopping-bag,
+.container-breadcrumbs,
+.panelAccount,
+.container-breadcrumbs,
+.breadcrumbs,
+.breadcrumbs a,
+.side-bar-sort,
+.catalog,
+.side-bar-container,
+.side-bar-filter,
+.catalog-item,
+.ProductPrice.sale,
+.result-search,
+.side-bar,
+.chat-bot-header,
+.fa-bars,
+.panelMenu,
+.menu-link,
+.menu,
+.menu-categoryName {
+  background-color: #041122;
+  color: #fff;
+}
+.header {
+  -webkit-box-shadow: 0 5px 10px rgba(255, 255, 255, 0.03);
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.03);
+}
+
+.btnAcc:hover,
+.btnAcc:active,
+.btnAcc:focus {
+  border: 1px solid #f72464;
+  color: #fff;
+}
+
+.countCart {
+  border: 1px solid #fff;
+}
+
+.cart:hover .countCart {
+  background-color: #f72464;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #554c4f;
+}
+
+.breadcrumbs a::after {
+  background-color: #041122;
+  color: #041122;
+  box-shadow: 1px 1px 0 1px #041122;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  height: 25px;
+  margin-top: 1.5px;
+}
+
+.breadcrumbs a.active::after {
+  color: #fff;
+  background: #f72464;
+  box-shadow: 1px 1px 0 1px #f72464;
+  border: none;
+  height: 26px;
+}
+.breadcrumbs a::after:hover {
+  box-shadow: #f72464;
+}
+
+.filter-catalog,
+.sort-catalog,
+.info-single-product-container,
+.reviews-container,
+.panelCategory,
+.panelAccount,
+.auth-container,
+.about-contact-info,
+.about-map-info,
+.about-content-info,
+.side-bar,
+.panelMenu-container,
+#content-profile {
+  border: 1px solid #071b35;
+  -webkit-box-shadow: 6px 6px 20px 0px rgba(255, 255, 255, 0.08);
+  box-shadow: 6px 6px 20px 0px rgba(255, 255, 255, 0.03);
+  background-color: #041122;
+  border-radius: 5px;
+}
+.panelMenu-container {
+  border: 1px solid #fff;
+}
+.review-item {
+  border: 1px solid #071b35;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social {
+  color: #fff;
+}
+.sideLeft {
+    width: 29%;
+}
+.active-side-bar {
+  border-left: 5px solid #f72464;
+  width: calc(95% - 4px);
+  background-color: #041122;
+}
+.my-message  {
+  border: 1px solid #041122;
+  background-color: #041122;
+}
+.my-message::after {
+  color: #041122;
+}
+.chat-bot-input {
+  border-top: 2px solid #041122;
+}
+
+

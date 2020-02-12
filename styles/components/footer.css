@@ -1,0 +1,148 @@
+.footer {
+  background: #041122;
+  height: 120px;
+  width: 100%;
+  margin: 0;
+  z-index: 90;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.25);
+  box-shadow: 0 0 10px rgba(0,0,0,.25);
+
+}
+.footer-container {
+  padding-right: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-contact-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  align-items: flex-start;
+}
+.footer-contact-container h1 {
+  font-size: 17px;
+  margin: 11px;
+}
+
+.footer-social-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.footer-social-container h1 {
+  font-size: 17px;
+  margin: 11px;
+}
+.footer-social-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-social-info a {
+  text-decoration: none;
+  color: #fff;
+}
+.social {
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.social:hover,
+.social:focus {
+  color: #f72464;
+}
+
+.footer-nav-container {
+  margin: 11px;
+}
+
+.footer-nav-container a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.footer-nav-container a:hover,
+.footer-nav-container a:focus {
+  color: #f72464;
+}
+.footer-nav-container {
+  display: flex;
+  align-items: center;
+}
+.footer-nav-container a {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footer-sitelogo {
+  line-height: 80px;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 800;
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-sitelogo a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-sitelogo a:hover {
+  color: #f72464;
+}
+
+
+@media (min-width: 320px) and (max-width: 504px) { 
+
+  .footer-nav-container, .footer-sitelogo  {
+    display: none;
+  }
+  .footer {
+    display: flex;
+  }
+  .footer-sitelogo {
+    padding: 0 10px;
+  }
+  
+}
+@media (min-width: 505px) and (max-width: 607px) { 
+  .footer-nav-container  {
+    display: none;
+  }
+  .footer {
+    display: flex;
+  }
+  .footer-sitelogo {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 608px) and (max-width: 746px) { 
+  .footer-nav-container  {
+    display: none;
+  }
+  .footer {
+    display: flex;
+  }
+  .footer-sitelogo {
+    padding: 0 10px;
+  }
+
+}

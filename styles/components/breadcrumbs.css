@@ -1,0 +1,50 @@
+/************************************************************
+                          BREAD CRUMBS
+*************************************************************/
+.breadcrumbs {
+    display: inline-block;
+    counter-reset: flag;
+    color: black;
+    box-shadow: 0 0 2px #aaa;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+    position: relative;
+    float: left;
+    padding-left: 25px;
+    padding-right: 10px;
+    text-decoration: none;
+    line-height: 30px;
+    color: #041122;;
+    background: #fff;
+    transition: all 0.5s;
+}
+
+.breadcrumbs a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -13px;
+    z-index: 1;
+    width: 28px;
+    height: 29px;
+    background: white;
+    box-shadow: 1px 1px 0 1px #ddd;
+    border-radius: 50px 0 0 0;
+    transform: rotate(-45deg) scale(0.73);
+    transition: all 0.5s;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:hover::after,
+.breadcrumbs a.active,
+.breadcrumbs a.active::after{
+    color: #fff;
+    background: #f72464;
+}
+
+.breadcrumbs a:first-child::before {
+    left: 14px;
+}

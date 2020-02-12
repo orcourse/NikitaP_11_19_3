@@ -1,0 +1,32 @@
+.tab input, .tab-content { display: none; }
+.tab {
+ border: 1px solid #e9eaec; 
+ border-radius: 3px; 
+ color: #848994;
+ margin-bottom: 10px;
+}
+.tab-title {
+ padding: 10px; 
+ display: block;
+ text-transform: uppercase;
+ font-weight: bold;
+ cursor: pointer; 
+}
+.tab-title::after {
+ content: '+'; 
+ float: right; 
+}
+.tab-content {
+ padding: 10px 20px; 
+}
+.tab :checked + .tab-title {
+ background-color: #f72464;
+ border-radius: 3px 3px 0 0; 
+ color: #fff; 
+}
+.tab :checked + .tab-title::after {
+ content: '−'; 
+}
+.tab :checked ~ .tab-content {
+ display: block; 
+}
