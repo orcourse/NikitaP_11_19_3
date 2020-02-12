@@ -5,50 +5,50 @@ document.querySelector("header").innerHTML = `<div class="container">
 <div class="sitelogo"><a href="../index.html">LIAPARO</a></div>
 <div class="navLinks">
   <div class="navContent">
-    <a href="../../catalog.html" id="navCatalog" class="navLink lang" key="header-catalog">Catalog</a>
+    <a href="../../NikitaP_11_19_3/catalog.html" id="navCatalog" class="navLink lang" key="header-catalog">Catalog</a>
     <div class="panelCategory">
       <div class="categoryContainer">
         <ul>
           <li class="liCategory">
-            <a href="./catalog.html" id="clothes" class="categoryName lang" key="header-clothes">Clothes</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="clothes" class="categoryName lang" key="header-clothes">Clothes</a>
           </li>
           <li class="liCategory">
-            <a href="./catalog.html" id="tshirt" class="categoryName lang" key="header-t-shirt">T-shirts</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="tshirt" class="categoryName lang" key="header-t-shirt">T-shirts</a>
           </li>
           <li class="liCategory">
-            <a href="./catalog.html" id="sweatshirts" class="categoryName lang" key="header-sweatshirts">Sweatshirts</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="sweatshirts" class="categoryName lang" key="header-sweatshirts">Sweatshirts</a>
           </li>
           <li class="liCategory">
-            <a href="./catalog.html" id="trousers" class="categoryName lang" key="header-trousers">Trousers</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="trousers" class="categoryName lang" key="header-trousers">Trousers</a>
           </li>
           <li class="liCategory">
-            <a href="./catalog.html" id="outerwear" class="categoryName lang" key="header-outerwear">Outerwear</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="outerwear" class="categoryName lang" key="header-outerwear">Outerwear</a>
           </li>
         </ul>
         <div class="hrLineCategory"></div>
         <ul>
           <li class="liCategory">
-            <a href="./catalog.html" id="shoes" class="categoryName lang" key="header-shoes">Shoes</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="shoes" class="categoryName lang" key="header-shoes">Shoes</a>
           </li>
           <li class="liCategory">
-            <a href="./catalog.html" id="boots" class="categoryName lang" key="header-boots">Boots</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="boots" class="categoryName lang" key="header-boots">Boots</a>
           </li>
           <li class="liCategory">
-            <a href="./catalog.html" id="sneakers" class="categoryName lang" key="header-sneakers">Sneakers</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="sneakers" class="categoryName lang" key="header-sneakers">Sneakers</a>
           </li>
           <li class="liCategory">
-            <a href="./catalog.html" id="gumshoes" class="categoryName lang" key="header-gumshoes">Gumshoes</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="gumshoes" class="categoryName lang" key="header-gumshoes">Gumshoes</a>
           </li>
           <li class="liCategory">
-            <a href="./catalog.html" id="slippers" class="categoryName lang" key="header-slippers">Slippers</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="slippers" class="categoryName lang" key="header-slippers">Slippers</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="navContent"><a href="../../about.html" class="navLink lang" key="header-about">About</a></div>
-  <div class="navContent"><a href="../../blog.html" class="navLink lang" key="header-blog">Blog</a></div>
-  <div class="navContent"><a href="../../faq.html" class="navLink lang" key="header-faq">Faq</a></div>
+  <div class="navContent"><a href="../../NikitaP_11_19_3/about.html" class="navLink lang" key="header-about">About</a></div>
+  <div class="navContent"><a href="../../NikitaP_11_19_3/blog.html" class="navLink lang" key="header-blog">Blog</a></div>
+  <div class="navContent"><a href="../../NikitaP_11_19_3/faq.html" class="navLink lang" key="header-faq">Faq</a></div>
 </div>
 <div class="search">
   <input
@@ -67,8 +67,8 @@ document.querySelector("header").innerHTML = `<div class="container">
     <div class="accountContainer" id = "accountContainer">
     <ul>
     <li class="liAccount liAccbtn">
-      <a href="../auth.html" class="btnAcc" id="signUpHeader">SIGN UP</a>
-      <a href="../auth.html" class="btnAcc" id="signInHeader">LOG IN</a>
+      <a href="../NikitaP_11_19_3/auth.html" class="btnAcc" id="signUpHeader">SIGN UP</a>
+      <a href="../NikitaP_11_19_3/auth.html" class="btnAcc" id="signInHeader">LOG IN</a>
     </li>
   </ul>
     </div>
@@ -94,27 +94,27 @@ document.querySelector("header").innerHTML = `<div class="container">
       <div class="tab">
         <input type="checkbox" id="header-tab-catalog" name="tab-group" />
         <label for="header-tab-catalog" class="header-tab-title">
-          <a href="../../catalog.html" id="menu-catalog" class="menu-link lang" key="header-catalog">Catalog</a>
+          <a href="../../NikitaP_11_19_3/catalog.html" id="menu-catalog" class="menu-link lang" key="header-catalog">Catalog</a>
         </label>
         <section class="tab-content">
           <div class="tab">
             <input type="checkbox" id="header-tab-catalog-clothes" name="tab-group" />
             <label for="header-tab-catalog-clothes" class="header-tab-title">
-            <a href="./catalog.html" id="menu-clothes" class="menu-link lang" key="header-clothes">Clothes</a>
+            <a href="./NikitaP_11_19_3/catalog.html" id="menu-clothes" class="menu-link lang" key="header-clothes">Clothes</a>
             </label>
             <section class="tab-content">
               <ul>
                 <li class="menu">
-                  <a href="./catalog.html" id="menu-tshirt" class="menu-categoryName lang" key="header-t-shirt">T-shirts</a>
+                  <a href="./NikitaP_11_19_3/catalog.html" id="menu-tshirt" class="menu-categoryName lang" key="header-t-shirt">T-shirts</a>
                 </li>
                 <li class="menu">
-                  <a href="./catalog.html" id="menu-sweatshirts" class="menu-categoryName lang" key="header-sweatshirts">Sweatshirts</a>
+                  <a href="./NikitaP_11_19_3/catalog.html" id="menu-sweatshirts" class="menu-categoryName lang" key="header-sweatshirts">Sweatshirts</a>
                 </li>
                 <li class="menu">
-                 <a href="./catalog.html" id="menu-trousers" class="menu-categoryName lang" key="header-trousers">Trousers</a>
+                 <a href="./NikitaP_11_19_3/catalog.html" id="menu-trousers" class="menu-categoryName lang" key="header-trousers">Trousers</a>
                 </li>
                 <li class="menu">
-                  <a href="./catalog.html" id="menu-outerwear" class="menu-categoryName lang" key="header-outerwear">Outerwear</a>
+                  <a href="./NikitaP_11_19_3/catalog.html" id="menu-outerwear" class="menu-categoryName lang" key="header-outerwear">Outerwear</a>
                 </li>
               </ul>
             </section>
@@ -122,21 +122,21 @@ document.querySelector("header").innerHTML = `<div class="container">
           <div class="tab">
             <input type="checkbox" id="header-tab-catalog-shoes" name="tab-group" />
             <label for="header-tab-catalog-shoes" class="header-tab-title">
-              <a href="./catalog.html" id="menu-shoes" class="menu-link lang" key="header-shoes">Shoes</a>
+              <a href="./NikitaP_11_19_3/catalog.html" id="menu-shoes" class="menu-link lang" key="header-shoes">Shoes</a>
             </label>
             <section class="tab-content">
               <ul>
                 <li class="menu">
-                  <a href="./catalog.html" id="menu-boots" class="menu-categoryName lang" key="header-boots">Boots</a>
+                  <a href="./NikitaP_11_19_3/catalog.html" id="menu-boots" class="menu-categoryName lang" key="header-boots">Boots</a>
                 </li>
                 <li class="menu">
-                  <a href="./catalog.html" id="menu-sneakers" class="menu-categoryName lang" key="header-sneakers">Sneakers</a>
+                  <a href="./NikitaP_11_19_3/catalog.html" id="menu-sneakers" class="menu-categoryName lang" key="header-sneakers">Sneakers</a>
                 </li>
                 <li class="menu">
-                  <a href="./catalog.html" id="menu-gumshoes" class="menu-categoryName lang" key="header-gumshoes">Gumshoes</a>
+                  <a href="./NikitaP_11_19_3/catalog.html" id="menu-gumshoes" class="menu-categoryName lang" key="header-gumshoes">Gumshoes</a>
                 </li>
                 <li class="menu">
-                  <a href="./catalog.html" id="menu-slippers" class="menu-categoryName lang" key="header-slippers">Slippers</a>
+                  <a href="./NikitaP_11_19_3/catalog.html" id="menu-slippers" class="menu-categoryName lang" key="header-slippers">Slippers</a>
                 </li>
               </ul>
             </section>
@@ -149,15 +149,15 @@ document.querySelector("header").innerHTML = `<div class="container">
           <section class="tab-content" id="menu-account-container">
             <ul>
               <li class="menu liAccbtn">
-                <a href="../auth.html" class="btnAcc" id="menu-signUpHeader">SIGN UP</a>
-                <a href="../auth.html" class="btnAcc" id="menu-signInHeader">LOG IN</a>
+                <a href="../NikitaP_11_19_3/auth.html" class="btnAcc" id="menu-signUpHeader">SIGN UP</a>
+                <a href="../NikitaP_11_19_3/auth.html" class="btnAcc" id="menu-signInHeader">LOG IN</a>
               </li>
             </ul>
           </section>
     </div>
-    <div><a href="../../about.html" class="navLink lang" key="header-about">About</a></div>
-    <div><a href="../../blog.html" class="navLink lang" key="header-blog">Blog</a></div>
-    <div><a href="../../faq.html" class="navLink lang" key="header-faq">Faq</a></div>
+    <div><a href="../../NikitaP_11_19_3/about.html" class="navLink lang" key="header-about">About</a></div>
+    <div><a href="../../NikitaP_11_19_3/blog.html" class="navLink lang" key="header-blog">Blog</a></div>
+    <div><a href="../../NikitaP_11_19_3/faq.html" class="navLink lang" key="header-faq">Faq</a></div>
     <div class="menu-switch">
       <div class="menu-language">
         <div id="menu-en" class="translate" style='background-image: url("../../images//language/us.png");'></div>
@@ -242,25 +242,25 @@ for (let i = 0; i < Customers.length; i++) {
   <div class="hrLine"></div>
   <ul>
     <li class="liAccount">
-      <a href="../../profile.html" class="myAcc lang" key="header-myprofile" id="myProfileHeader">My profile</a>
+      <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-myprofile" id="myProfileHeader">My profile</a>
     </li>
     <li class="liAccount">
-      <a href="../../profile.html" class="myAcc lang" key="header-editprofile" id="myDetailsHeader">Edit profile</a>
+      <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-editprofile" id="myDetailsHeader">Edit profile</a>
     </li>
     <li class="liAccount">
-      <a href="../../profile.html" class="myAcc lang" key="header-myorders" id="MyOredersHeader">My orders</a>
+      <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-myorders" id="MyOredersHeader">My orders</a>
     </li>
     <li class="liAccount">
-      <a href="../../profile.html" class="myAcc lang" key="header-mycart" id="myCartHeader">My cart</a>
+      <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-mycart" id="myCartHeader">My cart</a>
     </li>
     <li class="liAccount">
-      <a href="../../profile.html" class="myAcc lang" key="header-mywishlist" id="myWishlistHeader">My wishlist</a>
+      <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-mywishlist" id="myWishlistHeader">My wishlist</a>
     </li>
   </ul>
   <div class="hrLine"></div>
   <ul>
     <li class="liAccount">
-      <a href="../../index.html" class="myAcc lang" key="header-exitaccount" id="ExitAccount">Logout</a>
+      <a href="../../NikitaP_11_19_3/index.html" class="myAcc lang" key="header-exitaccount" id="ExitAccount">Logout</a>
      </li>
   </ul>
   `;
@@ -271,25 +271,25 @@ for (let i = 0; i < Customers.length; i++) {
             <div class="hrLine"></div>
             <ul>
               <li class="menu">
-                <a href="../../profile.html" class="myAcc lang" key="header-myprofile" id="menu-myProfileHeader">My profile</a>
+                <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-myprofile" id="menu-myProfileHeader">My profile</a>
               </li>
               <li class="menu">
-                <a href="../../profile.html" class="myAcc lang" key="header-editprofile" id="menu-myDetailsHeader">Edit profile</a>
+                <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-editprofile" id="menu-myDetailsHeader">Edit profile</a>
               </li>
               <li class="menu">
-                <a href="../../profile.html" class="myAcc lang" key="header-myorders" id="menu-MyOredersHeader">My orders</a>
+                <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-myorders" id="menu-MyOredersHeader">My orders</a>
               </li>
               <li class="menu">
-                <a href="../../profile.html" class="myAcc lang" key="header-mycart" id="menu-myCartHeader">My cart</a>
+                <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-mycart" id="menu-myCartHeader">My cart</a>
               </li>
               <li class="menu">
-                <a href="../../profile.html" class="myAcc lang" key="header-mywishlist" id="menu-myWishlistHeader">My wishlist</a>
+                <a href="../../NikitaP_11_19_3/profile.html" class="myAcc lang" key="header-mywishlist" id="menu-myWishlistHeader">My wishlist</a>
               </li>
             </ul>
             <div class="hrLine"></div>
             <ul>
               <li class="menu">
-                <a href="../../index.html" class="myAcc lang" key="header-exitaccount" id="menu-exit-account">Logout</a>
+                <a href="../../NikitaP_11_19_3/index.html" class="myAcc lang" key="header-exitaccount" id="menu-exit-account">Logout</a>
               </li>
             </ul>`;
       let exitAccount = document.getElementById("ExitAccount");
